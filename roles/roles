@@ -1,0 +1,172 @@
+<library>
+  <meshfact name="nan">
+		<plugin>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />
+			
+			<animation file="roles/xi_man_a/run.caf" name="run" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_man_a/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_man_a/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+				
+			<scale value="0.01" />
+			<skeleton file="roles/xi_man_a/jsnan.csf" />
+			<mesh file="roles/xi_man_a/jsnan.cmf" name="yifu" material="nangongzhuang2.jpg" />
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+		</params>
+	</meshfact>
+	
+	<meshfact name="nv">
+		<plugin>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />
+			
+			<animation file="roles/xi_woman_a/run.caf" name="run" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_woman_a/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_woman_a/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+				
+			<scale value="0.01" />
+			<skeleton file="roles/xi_woman_a/jsnv.csf" />
+			<mesh file="roles/xi_woman_a/jsnvshenti.cmf" name="yifu" material="js_nv.jpg" />
+			<mesh file="roles/xi_woman_a/jsnvtoufa.cmf" name="yifu" material="toufa1.png" />
+			
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+		</params>
+	</meshfact>
+	
+	
+	<meshfact name="xi_femaleChild_a">
+		<plugin>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />
+			
+			<animation file="roles/xi_femaleChild_a/run.caf" name="run" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_femaleChild_a/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_femaleChild_a/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+				
+			<scale value="0.01" />
+			<skeleton file="roles/xi_femaleChild_a/nvhai.csf" />
+			<mesh file="roles/xi_femaleChild_a/nvhaishenti.cmf" name="yifu" material="md_nh_fdy_yf_02.jpg" />
+			<mesh file="roles/xi_femaleChild_a/nvhaitou.cmf" name="yifu" material="md_nh_fdy_tou_01.jpg" />
+			
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+		</params>
+	</meshfact>
+	
+	<meshfact name="xi_femaleOld_a">
+		<plugin>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />	
+			<animation file="roles/xi_femaleOld_a/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_femaleOld_a/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+				
+			<scale value="0.01" />
+			<skeleton file="roles/xi_femaleOld_a/laotaitai.csf" />
+			<mesh file="roles/xi_femaleOld_a/laotaitai.cmf" name="yifu" material="md_ltt_fdy_01.jpg" />
+			
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+		</params>
+	</meshfact>
+	
+	
+	<meshfact name="xi_maleChild_a">
+		<plugin>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />
+			
+			<animation file="roles/xi_maleChild_a/run.caf" name="run" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_maleChild_a/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_maleChild_a/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+				
+			<scale value="0.01" />
+			<skeleton file="roles/xi_maleChild_a/nanhai.csf" />
+			<mesh file="roles/xi_maleChild_a/nanhaishenti.cmf" name="yifu" material="md_xnh_fdy_yf_01.jpg" />
+			<mesh file="roles/xi_maleChild_a/nanhaitou.cmf" name="yifu" material="md_xnh_fdy_tou_01.jpg" />
+			
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+		</params>
+	</meshfact>
+	
+	<meshfact name="xi_maleOld_a">
+		<plugin>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />
+			<animation file="roles/xi_maleOld_a/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="roles/xi_maleOld_a/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />	
+			<scale value="0.01" />
+			<skeleton file="roles/xi_maleOld_a/laotou.csf" />
+			<mesh file="roles/xi_maleOld_a/laotou.cmf" name="yifu" material="md_laotou_yifu_01.jpg" />
+			
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+		</params>
+	</meshfact>
+</library>

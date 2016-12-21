@@ -1,0 +1,28 @@
+#VRML V2.0 utf8
+
+DEF	bone Bone {
+	skeleton "jsnan.csf"
+	animation ["jsnan_fanghua.caf"]
+	mesh ["jsnan.cmf","jiuhu.cmf"]
+	material ["jsnan2.xrf","jiuhu.xrf"]
+	meshSet	[
+		"default",
+		"jsnan.cmf","jsnan2.xrf"
+		"jiuhu.cmf","jiuhu.xrf"
+		
+
+	]	
+}
+
+DEF	tf_bone Transform {
+	children [
+		Rotation { rotation 0 1 0 1.57 }
+		DEF	jolidan	BoneInstance {
+			classname "bone"
+			meshSet	"default"
+			animCycle ["jsnan_fanghua.caf","0.1","0.5"]
+			refreshTime	0.01
+			lod	 1
+		}	
+	]
+}													  

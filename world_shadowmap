@@ -1,0 +1,2159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<world>
+  <plugins>
+    <plugin name='genmesh'>crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name='genmeshfact'>crystalspace.mesh.loader.factory.genmesh</plugin>
+	<plugin name="spr3d">crystalspace.mesh.loader.sprite.cal3d</plugin>
+	<plugin name="facspr3d">crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+  </plugins>
+  <shaders>
+    <shader>
+      <file>/shader/light_bumpmap.xml</file>
+    </shader>
+  </shaders>
+  <textures>
+    <texture name='A_0067.PNG'>
+      <file>textures/A_0067.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0067N.PNG'>
+      <file>textures/A_0067N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0019.PNG'>
+      <file>textures/A_0019.PNG</file>
+    </texture>
+    <texture name='BUMPA_0019N.PNG'>
+      <file>textures/A_0019N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0020.PNG'>
+      <file>textures/A_0020.PNG</file>
+    </texture>
+    <texture name='BUMPA_0020N.PNG'>
+      <file>textures/A_0020N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0009.PNG'>
+      <file>textures/A_0009.PNG</file>
+	  <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0009N.PNG'>
+      <file>textures/A_0009N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0041.PNG'>
+      <file>textures/A_0041.PNG</file>
+	  <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0041N.PNG'>
+      <file>textures/A_0041N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0004.PNG'>
+      <file>textures/A_0004.PNG</file>
+    </texture>
+    <texture name='BUMPA_0004N.PNG'>
+      <file>textures/A_0004N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0005.PNG'>
+      <file>textures/A_0005.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0005N.PNG'>
+      <file>textures/A_0005N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0006.PNG'>
+      <file>textures/A_0006.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0006N.PNG'>
+      <file>textures/A_0006N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0038.PNG'>
+      <file>textures/A_0038.PNG</file>
+    </texture>
+    <texture name='BUMPA_0038N.PNG'>
+      <file>textures/A_0038N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0037.PNG'>
+      <file>textures/A_0037.PNG</file>
+    </texture>
+    <texture name='BUMPA_0037N.PNG'>
+      <file>textures/A_0037N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0036.PNG'>
+      <file>textures/A_0036.PNG</file>
+    </texture>
+    <texture name='BUMPA_0036N.PNG'>
+      <file>textures/A_0036N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0035.PNG'>
+      <file>textures/A_0035.PNG</file>
+    </texture>
+    <texture name='BUMPA_0035N.PNG'>
+      <file>textures/A_0035N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0034.PNG'>
+      <file>textures/A_0034.PNG</file>
+    </texture>
+    <texture name='BUMPA_0034N.PNG'>
+      <file>textures/A_0034N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0033.PNG'>
+      <file>textures/A_0033.PNG</file>
+    </texture>
+    <texture name='BUMPA_0033N.PNG'>
+      <file>textures/A_0033N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0040.PNG'>
+      <file>textures/A_0040.PNG</file>
+    </texture>
+    <texture name='BUMPA_0040N.PNG'>
+      <file>textures/A_0040N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0039.PNG'>
+      <file>textures/A_0039.PNG</file>
+    </texture>
+    <texture name='BUMPA_0039N.PNG'>
+      <file>textures/A_0039N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0026.PNG'>
+      <file>textures/A_0026.PNG</file>
+    </texture>
+    <texture name='BUMPA_0026N.PNG'>
+      <file>textures/A_0026N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0070.JPG'>
+      <file>textures/A_0070.JPG</file>
+    </texture>
+    <texture name='BUMPA_0070N.JPG'>
+      <file>textures/A_0070N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0065.PNG'>
+      <file>textures/A_0065.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0065N.PNG'>
+      <file>textures/A_0065N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0007.PNG'>
+      <file>textures/A_0007.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0007N.PNG'>
+      <file>textures/A_0007N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0042.PNG'>
+      <file>textures/A_0042.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0042N.PNG'>
+      <file>textures/A_0042N.PNG</file>
+      <class>normalmap</class>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='A_0068.PNG'>
+      <file>textures/A_0068.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0068N.PNG'>
+      <file>textures/A_0068N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0069.PNG'>
+      <file>textures/A_0069.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPA_0069N.PNG'>
+      <file>textures/A_0069N.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0028.JPG'>
+      <file>textures/A_0028.JPG</file>
+    </texture>
+    <texture name='BUMPA_0028N.JPG'>
+      <file>textures/A_0028N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0022.JPG'>
+      <file>textures/A_0022.JPG</file>
+    </texture>
+    <texture name='BUMPA_0022N.JPG'>
+      <file>textures/A_0022N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0018.JPG'>
+      <file>textures/A_0018.JPG</file>
+    </texture>
+    <texture name='BUMPA_0018N.JPG'>
+      <file>textures/A_0018N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0030.JPG'>
+      <file>textures/A_0030.JPG</file>
+    </texture>
+    <texture name='BUMPA_0030N.JPG'>
+      <file>textures/A_0030N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0023.JPG'>
+      <file>textures/A_0023.JPG</file>
+    </texture>
+    <texture name='BUMPA_0023N.JPG'>
+      <file>textures/A_0023N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0021.JPG'>
+      <file>textures/A_0021.JPG</file>
+    </texture>
+    <texture name='BUMPA_0021N.JPG'>
+      <file>textures/A_0021N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0043.JPG'>
+      <file>textures/A_0043.JPG</file>
+    </texture>
+    <texture name='BUMPA_0043N.JPG'>
+      <file>textures/A_0043N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0046.JPG'>
+      <file>textures/A_0046.JPG</file>
+    </texture>
+    <texture name='BUMPA_0046N.JPG'>
+      <file>textures/A_0046N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0025.JPG'>
+      <file>textures/A_0025.JPG</file>
+    </texture>
+    <texture name='BUMPA_0025N.JPG'>
+      <file>textures/A_0025N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0024.JPG'>
+      <file>textures/A_0024.JPG</file>
+    </texture>
+    <texture name='BUMPA_0024N.JPG'>
+      <file>textures/A_0024N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0017.JPG'>
+      <file>textures/A_0017.JPG</file>
+    </texture>
+    <texture name='BUMPA_0017N.JPG'>
+      <file>textures/A_0017N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0048.JPG'>
+      <file>textures/A_0048.JPG</file>
+    </texture>
+    <texture name='BUMPA_0048N.JPG'>
+      <file>textures/A_0048N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0031.JPG'>
+      <file>textures/A_0031.JPG</file>
+    </texture>
+    <texture name='BUMPA_0031N.JPG'>
+      <file>textures/A_0031N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0029.JPG'>
+      <file>textures/A_0029.JPG</file>
+    </texture>
+    <texture name='BUMPA_0029N.JPG'>
+      <file>textures/A_0029N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0032.JPG'>
+      <file>textures/A_0032.JPG</file>
+    </texture>
+    <texture name='BUMPA_0032N.JPG'>
+      <file>textures/A_0032N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0044.JPG'>
+      <file>textures/A_0044.JPG</file>
+    </texture>
+    <texture name='BUMPA_0044N.JPG'>
+      <file>textures/A_0044N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0045.JPG'>
+      <file>textures/A_0045.JPG</file>
+    </texture>
+    <texture name='BUMPA_0045N.JPG'>
+      <file>textures/A_0045N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0013.JPG'>
+      <file>textures/A_0013.JPG</file>
+    </texture>
+    <texture name='A_0008.JPG'>
+      <file>textures/A_0008.JPG</file>
+    </texture>
+    <texture name='BUMPA_0008N.JPG'>
+      <file>textures/A_0008N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0064.JPG'>
+      <file>textures/A_0064.JPG</file>
+    </texture>
+    <texture name='BUMPA_0064N.JPG'>
+      <file>textures/A_0064N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0062.JPG'>
+      <file>textures/A_0062.JPG</file>
+    </texture>
+    <texture name='BUMPA_0062N.JPG'>
+      <file>textures/A_0062N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0012.JPG'>
+      <file>textures/A_0012.JPG</file>
+    </texture>
+    <texture name='BUMPA_0012N.JPG'>
+      <file>textures/A_0012N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0060.JPG'>
+      <file>textures/A_0060.JPG</file>
+    </texture>
+    <texture name='BUMPA_0060N.JPG'>
+      <file>textures/A_0060N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0054.JPG'>
+      <file>textures/A_0054.JPG</file>
+    </texture>
+    <texture name='BUMPA_0054N.JPG'>
+      <file>textures/A_0054N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0050.JPG'>
+      <file>textures/A_0050.JPG</file>
+    </texture>
+    <texture name='BUMPA_0050N.JPG'>
+      <file>textures/A_0050N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0051.JPG'>
+      <file>textures/A_0051.JPG</file>
+    </texture>
+    <texture name='BUMPA_0051N.JPG'>
+      <file>textures/A_0051N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0052.JPG'>
+      <file>textures/A_0052.JPG</file>
+    </texture>
+    <texture name='BUMPA_0052N.JPG'>
+      <file>textures/A_0052N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0003.JPG'>
+      <file>textures/A_0003.JPG</file>
+    </texture>
+    <texture name='BUMPA_0003N.JPG'>
+      <file>textures/A_0003N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0056.JPG'>
+      <file>textures/A_0056.JPG</file>
+    </texture>
+    <texture name='BUMPA_0056N.JPG'>
+      <file>textures/A_0056N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0057.JPG'>
+      <file>textures/A_0057.JPG</file>
+    </texture>
+    <texture name='BUMPA_0057N.JPG'>
+      <file>textures/A_0057N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0066.JPG'>
+      <file>textures/A_0066.JPG</file>
+    </texture>
+    <texture name='BUMPA_0066N.JPG'>
+      <file>textures/A_0066N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0002.JPG'>
+      <file>textures/A_0002.JPG</file>
+    </texture>
+    <texture name='BUMPA_0002N.JPG'>
+      <file>textures/A_0002N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0001.JPG'>
+      <file>textures/A_0001.JPG</file>
+    </texture>
+    <texture name='BUMPA_0001N.JPG'>
+      <file>textures/A_0001N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0027.JPG'>
+      <file>textures/A_0027.JPG</file>
+    </texture>
+    <texture name='BUMPA_0027N.JPG'>
+      <file>textures/A_0027N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0072.JPG'>
+      <file>textures/A_0072.JPG</file>
+    </texture>
+    <texture name='BUMPA_0072N.JPG'>
+      <file>textures/A_0072N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0049.JPG'>
+      <file>textures/A_0049.JPG</file>
+    </texture>
+    <texture name='BUMPA_0049N.JPG'>
+      <file>textures/A_0049N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0063.JPG'>
+      <file>textures/A_0063.JPG</file>
+    </texture>
+    <texture name='BUMPA_0063N.JPG'>
+      <file>textures/A_0063N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0071.JPG'>
+      <file>textures/A_0071.JPG</file>
+    </texture>
+    <texture name='BUMPA_0071N.JPG'>
+      <file>textures/A_0071N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0015.JPG'>
+      <file>textures/A_0015.JPG</file>
+    </texture>
+    <texture name='BUMPA_0015N.JPG'>
+      <file>textures/A_0015N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0016.JPG'>
+      <file>textures/A_0016.JPG</file>
+    </texture>
+    <texture name='BUMPA_0016N.JPG'>
+      <file>textures/A_0016N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0053.JPG'>
+      <file>textures/A_0053.JPG</file>
+    </texture>
+    <texture name='BUMPA_0053N.JPG'>
+      <file>textures/A_0053N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0047.JPG'>
+      <file>textures/A_0047.JPG</file>
+    </texture>
+    <texture name='BUMPA_0047N.JPG'>
+      <file>textures/A_0047N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0061.JPG'>
+      <file>textures/A_0061.JPG</file>
+    </texture>
+    <texture name='BUMPA_0061N.JPG'>
+      <file>textures/A_0061N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0058.JPG'>
+      <file>textures/A_0058.JPG</file>
+    </texture>
+    <texture name='BUMPA_0058N.JPG'>
+      <file>textures/A_0058N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0059.JPG'>
+      <file>textures/A_0059.JPG</file>
+    </texture>
+    <texture name='BUMPA_0059N.JPG'>
+      <file>textures/A_0059N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0014.JPG'>
+      <file>textures/A_0014.JPG</file>
+    </texture>
+    <texture name='BUMPA_0014N.JPG'>
+      <file>textures/A_0014N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0055.JPG'>
+      <file>textures/A_0055.JPG</file>
+    </texture>
+    <texture name='BUMPA_0055N.JPG'>
+      <file>textures/A_0055N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0010.JPG'>
+      <file>textures/A_0010.JPG</file>
+    </texture>
+    <texture name='BUMPA_0010N.JPG'>
+      <file>textures/A_0010N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='A_0011.JPG'>
+      <file>textures/A_0011.JPG</file>
+    </texture>
+    <texture name='BUMPA_0011N.JPG'>
+      <file>textures/A_0011N.JPG</file>
+      <class>normalmap</class>
+    </texture>
+  </textures>
+  <materials>
+    <material name='xx_142_ly'>
+      <texture>A_0067.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0067N.PNG</shadervar>
+    </material>
+    <material name='js_lee_hp_03'>
+      <texture>A_0019.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0019N.PNG</shadervar>
+    </material>
+    <material name='js_lee_hp_04'>
+      <texture>A_0020.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0020N.PNG</shadervar>
+    </material>
+    <material name='dao_hang'>
+      <texture>A_0009.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0009N.PNG</shadervar>
+    </material>
+    <material name='md_rqfw'>
+      <texture>A_0041.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0041N.PNG</shadervar>
+    </material>
+    <material name='chesi_tree_07'>
+      <texture>A_0004.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0004N.PNG</shadervar>
+    </material>
+    <material name='chesi_tree_08'>
+      <texture>A_0005.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0005N.PNG</shadervar>
+    </material>
+    <material name='chesi_tree_09'>
+      <texture>A_0006.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0006N.PNG</shadervar>
+    </material>
+    <material name='md_hua07'>
+      <texture>A_0038.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0038N.PNG</shadervar>
+    </material>
+    <material name='md_hua06'>
+      <texture>A_0037.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0037N.PNG</shadervar>
+    </material>
+    <material name='md_hua05'>
+      <texture>A_0036.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0036N.PNG</shadervar>
+    </material>
+    <material name='md_hua03'>
+      <texture>A_0035.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0035N.PNG</shadervar>
+    </material>
+    <material name='md_hua02'>
+      <texture>A_0034.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0034N.PNG</shadervar>
+    </material>
+    <material name='md_hua01'>
+      <texture>A_0033.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0033N.PNG</shadervar>
+    </material>
+    <material name='md_hua09'>
+      <texture>A_0040.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0040N.PNG</shadervar>
+    </material>
+    <material name='md_hua08'>
+      <texture>A_0039.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0039N.PNG</shadervar>
+    </material>
+    <material name='lazhu_01'>
+      <texture>A_0026.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0026N.PNG</shadervar>
+    </material>
+    <material name='ysp_0011'>
+      <texture>A_0070.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0070N.JPG</shadervar>
+    </material>
+    <material name='song_shu_03'>
+      <texture>A_0065.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0065N.PNG</shadervar>
+    </material>
+    <material name='chesi_tree_11'>
+      <texture>A_0007.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0007N.PNG</shadervar>
+    </material>
+    <material name='md_salpha'>
+      <texture>A_0042.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0042N.PNG</shadervar>
+    </material>
+    <material name='xx_173_ly'>
+      <texture>A_0068.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0068N.PNG</shadervar>
+    </material>
+    <material name='xx_174_ly'>
+      <texture>A_0069.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0069N.PNG</shadervar>
+    </material>
+    <material name='md_baozhuangzhi'>
+      <texture>A_0028.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0028N.JPG</shadervar>
+    </material>
+    <material name='js_xianglu_ws_01'>
+      <texture>A_0022.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0022N.JPG</shadervar>
+    </material>
+    <material name='js_lee_hp_02'>
+      <texture>A_0018.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0018N.JPG</shadervar>
+    </material>
+    <material name='md_fdy_pz_001_00'>
+      <texture>A_0030.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0030N.JPG</shadervar>
+    </material>
+    <material name='js_xianglu_ws_02'>
+      <texture>A_0023.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0023N.JPG</shadervar>
+    </material>
+    <material name='ysp_001'>
+      <texture>A_0070.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0070N.JPG</shadervar>
+    </material>
+    <material name='js_lee_hp_06'>
+      <texture>A_0021.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0021N.JPG</shadervar>
+    </material>
+    <material name='md_xp_mantou'>
+      <texture>A_0043.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0043N.JPG</shadervar>
+    </material>
+    <material name='ndxq_zcb_xp_01'>
+      <texture>A_0046.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0046N.JPG</shadervar>
+    </material>
+    <material name='lazhu'>
+      <texture>A_0025.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0025N.JPG</shadervar>
+    </material>
+    <material name='js_xiang_ws_002'>
+      <texture>A_0024.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0024N.JPG</shadervar>
+    </material>
+    <material name='js_lee_hp_01'>
+      <texture>A_0017.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0017N.JPG</shadervar>
+    </material>
+    <material name='ps_gb_jza01_051'>
+      <texture>A_0048.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0048N.JPG</shadervar>
+    </material>
+    <material name='md_fdy_xj_001'>
+      <texture>A_0031.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0031N.JPG</shadervar>
+    </material>
+    <material name='md_csy_jiu01'>
+      <texture>A_0029.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0029N.JPG</shadervar>
+    </material>
+    <material name='md_gaojiaobei_01'>
+      <texture>A_0032.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0032N.JPG</shadervar>
+    </material>
+    <material name='md_xp_yuebing'>
+      <texture>A_0044.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0044N.JPG</shadervar>
+    </material>
+    <material name='ndxq_zcb_xp_001_'>
+      <texture>A_0045.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0045N.JPG</shadervar>
+    </material>
+    <material name='Material.003'/>
+    <material name='chm_cc_ww_002'>
+      <texture>A_0008.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0008N.JPG</shadervar>
+    </material>
+    <material name='sky02'>
+      <texture>A_0064.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0064N.JPG</shadervar>
+    </material>
+    <material name='ps_whe_dxa01_001'>
+      <texture>A_0062.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0062N.JPG</shadervar>
+    </material>
+    <material name='ground012'>
+      <texture>A_0012.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0012N.JPG</shadervar>
+    </material>
+    <material name='ground013'>
+      <texture>A_0012.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0012N.JPG</shadervar>
+    </material>
+    <material name='ground011'>
+      <texture>A_0012.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0012N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_ground_2'>
+      <texture>A_0060.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0060N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_ground_1'>
+      <texture>A_0054.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0054N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_ground_0'>
+      <texture>A_0050.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0050N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun10'>
+      <texture>A_0050.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0050N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun11'>
+      <texture>A_0051.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0051N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun12'>
+      <texture>A_0052.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0052N.JPG</shadervar>
+    </material>
+    <material name='bwdq_csy_jz_001_'>
+      <texture>A_0003.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0003N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun14'>
+      <texture>A_0056.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0056N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun15'>
+      <texture>A_0057.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0057N.JPG</shadervar>
+    </material>
+    <material name='xjdls_09'>
+      <texture>A_0066.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0066N.JPG</shadervar>
+    </material>
+    <material name='bwdq_csy_jz_01'>
+      <texture>A_0002.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0002N.JPG</shadervar>
+    </material>
+    <material name='bwdq_csy_jz_02'>
+      <texture>A_0001.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0001N.JPG</shadervar>
+    </material>
+    <material name='ground01'>
+      <texture>A_0012.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0012N.JPG</shadervar>
+    </material>
+    <material name='md_000011'>
+      <texture>A_0027.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0027N.JPG</shadervar>
+    </material>
+    <material name='zghy_dx__csy_001'>
+      <texture>A_0072.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0072N.JPG</shadervar>
+    </material>
+    <material name='md_00001'>
+      <texture>A_0027.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0027N.JPG</shadervar>
+    </material>
+    <material name='ps_ply_dxa01_012'>
+      <texture>A_0049.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0049N.JPG</shadervar>
+    </material>
+    <material name='ps_whe_jza01_001'>
+      <texture>A_0063.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0063N.JPG</shadervar>
+    </material>
+    <material name='zghy_dx_019'>
+      <texture>A_0071.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0071N.JPG</shadervar>
+    </material>
+    <material name='jsgm_csy_dx_01'>
+      <texture>A_0015.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0015N.JPG</shadervar>
+    </material>
+    <material name='jsgm_csy_dx_02'>
+      <texture>A_0016.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0016N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun1'>
+      <texture>A_0053.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0053N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun2'>
+      <texture>A_0056.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0056N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun3'>
+      <texture>A_0057.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0057N.JPG</shadervar>
+    </material>
+    <material name='ps_gb_jza01_0013'>
+      <texture>A_0047.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0047N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun5'>
+      <texture>A_0061.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0061N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun6'>
+      <texture>A_0050.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0050N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun7'>
+      <texture>A_0058.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0058N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun8'>
+      <texture>A_0052.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0052N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun9'>
+      <texture>A_0059.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0059N.JPG</shadervar>
+    </material>
+    <material name='jsgm_csy_dx_001_'>
+      <texture>A_0014.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0014N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun13'>
+      <texture>A_0053.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0053N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun16'>
+      <texture>A_0055.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0055N.JPG</shadervar>
+    </material>
+    <material name='dzx_dx_ly_013'>
+      <texture>A_0010.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0010N.JPG</shadervar>
+    </material>
+    <material name='dzx_dx_ly_015'>
+      <texture>A_0011.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0011N.JPG</shadervar>
+    </material>
+    <material name='ps_spmu_groun4'>
+      <texture>A_0055.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader><shadervar name="specular" type="vector4">1.6, 1.8, 2, 0</shadervar>
+      <shadervar type='texture' name='tex normal'>BUMPA_0055N.JPG</shadervar>
+    </material>
+    <material name='Material'>
+      <texture>no</texture>
+    </material>
+	
+	<!--男-->
+	 <material name='nangongzhuang2.jpg'>
+      <texture>roles/xi_man_a/nangongzhuang2.jpg</texture>
+    </material>
+	
+	<!--女-->
+	<material name="js_nv.jpg">
+		<texture>roles/xi_woman_a/js_nv.jpg</texture>	
+	</material>
+	<material name="toufa1.png">
+		<texture>roles/xi_woman_a/toufa1.png</texture>	
+	</material>
+	
+	<!--女孩-->
+	<material name="md_nh_fdy_yf_02.jpg">
+		<texture>roles/xi_femaleChild_a/md_nh_fdy_yf_02.jpg</texture>	
+	</material>
+	<material name="md_nh_fdy_tou_01.jpg">
+		<texture>roles/xi_femaleChild_a/md_nh_fdy_tou_01.jpg</texture>	
+	</material>
+	
+	<!--老奶奶-->
+	<material name="md_ltt_fdy_01.jpg">
+		<texture>roles/xi_femaleOld_a/md_ltt_fdy_01.jpg</texture>	
+	</material>
+	
+	<!--男孩-->
+	<material name="md_xnh_fdy_yf_01.jpg">
+		<texture>roles/xi_maleChild_a/md_xnh_fdy_yf_01.jpg</texture>	
+	</material>
+	<material name="md_xnh_fdy_tou_01.jpg">
+		<texture>roles/xi_maleChild_a/md_xnh_fdy_tou_01.jpg</texture>	
+	</material>
+	
+	<!--老头-->
+	<material name="md_laotou_yifu_01.jpg">
+		<texture>roles/xi_maleOld_a/md_laotou_yifu_01.jpg</texture>	
+	</material>	
+	
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/genalpha_xx_142_ly</library>
+  <library>factories/genalpha_js_lee_hp_03</library>
+  <library>factories/genalpha_js_lee_hp_04</library>
+  <library>factories/genalpha_dao_hang</library>
+  <library>factories/genalpha_md_rqfw</library>
+  <library>factories/genalpha_chesi_tree_07</library>
+  <library>factories/genalpha_chesi_tree_08</library>
+  <library>factories/genalpha_chesi_tree_09</library>
+  <library>factories/genalpha_md_hua07</library>
+  <library>factories/genalpha_md_hua06</library>
+  <library>factories/genalpha_md_hua05</library>
+  <library>factories/genalpha_md_hua03</library>
+  <library>factories/genalpha_md_hua02</library>
+  <library>factories/genalpha_md_hua01</library>
+  <library>factories/genalpha_md_hua09</library>
+  <library>factories/genalpha_md_hua08</library>
+  <library>factories/genalpha_lazhu_01</library>
+  <library>factories/genalpha_ysp_0011</library>
+  <library>factories/genalpha_song_shu_03</library>
+  <library>factories/genalpha_chesi_tree_11</library>
+  <library>factories/genalpha_md_salpha</library>
+  <library>factories/genalpha_xx_173_ly</library>
+  <library>factories/genalpha_xx_174_ly</library>
+  <library>factories/genalpha_md_baozhuangzhi</library>
+  <library>factories/genxjp_js_xianglu_ws_01</library>
+  <library>factories/genxjp_js_lee_hp_02</library>
+  <library>factories/genxjp_md_fdy_pz_001_00</library>
+  <library>factories/genxjp_js_xianglu_ws_02</library>
+  <library>factories/genxjp_ysp_001</library>
+  <library>factories/genxjp_js_lee_hp_06</library>
+  <library>factories/genxjp_md_xp_mantou</library>
+  <library>factories/genxjp_ndxq_zcb_xp_01</library>
+  <library>factories/genxjp_lazhu</library>
+  <library>factories/genxjp_js_xiang_ws_002</library>
+  <library>factories/genxjp_js_lee_hp_01</library>
+  <library>factories/genxjp_ps_gb_jza01_051</library>
+  <library>factories/genxjp_md_fdy_xj_001</library>
+  <library>factories/genxjp_md_csy_jiu01</library>
+  <library>factories/genxjp_md_gaojiaobei_01</library>
+  <library>factories/genxjp_md_xp_yuebing</library>
+  <library>factories/genxjp_ndxq_zcb_xp_001_</library>
+  <library>factories/genwater</library>
+  <library>factories/gencollide</library>
+  <library>factories/gensky_chm_cc_ww_002</library>
+  <library>factories/gensky_sky02</library>
+  <library>factories/genground_ps_whe_dxa01_0</library>
+  <library>factories/genground_ground012</library>
+  <library>factories/genground_ground013</library>
+  <library>factories/genground_ground011</library>
+  <library>factories/genground_ps_spmu_gr.008</library>
+  <library>factories/genground_ps_spmu_gr.007</library>
+  <library>factories/genground_ps_spmu_ground</library>
+  <library>factories/genground_ps_spmu_gr.006</library>
+  <library>factories/genground_ps_spmu_gr.005</library>
+  <library>factories/genground_ps_spmu_gr.004</library>
+  <library>factories/genground_bwdq_csy_jz_00</library>
+  <library>factories/genground_ps_spmu_gr.003</library>
+  <library>factories/genground_ps_spmu_gr.002</library>
+  <library>factories/genground_xjdls_09</library>
+  <library>factories/genground_bwdq_csy_jz_01</library>
+  <library>factories/genground_bwdq_csy_jz_02</library>
+  <library>factories/genground_ground01</library>
+  <library>factories/genground_md_000011</library>
+  <library>factories/genground_zghy_dx__csy_0</library>
+  <library>factories/genground_md_00001</library>
+  <library>factories/genground_ps_ply_dxa01_0</library>
+  <library>factories/genground_ps_whe_jza01_0</library>
+  <library>factories/genground_zghy_dx_019</library>
+  <library>factories/genground_jsgm_csy_dx_01</library>
+  <library>factories/genground_jsgm_csy_dx_02</library>
+  <library>factories/genground_ps_spmu_gr.001</library>
+  <library>factories/genground_ps_spmu_groun2</library>
+  <library>factories/genground_ps_spmu_groun3</library>
+  <library>factories/genground_ps_gb_jza01_00</library>
+  <library>factories/genground_ps_spmu_groun5</library>
+  <library>factories/genground_ps_spmu_groun6</library>
+  <library>factories/genground_ps_spmu_groun7</library>
+  <library>factories/genground_ps_spmu_groun8</library>
+  <library>factories/genground_ps_spmu_groun9</library>
+  <library>factories/genground_jsgm_csy_dx_00</library>
+  <library>factories/genground_ps_spmu_gr</library>
+  <library>factories/genground_ps_spmu_groun1</library>
+  <library>factories/genground_dzx_dx_ly_013</library>
+  <library>factories/genground_dzx_dx_ly_015</library>
+  <library>factories/genground_ps_spmu_groun4</library>
+  <library>factories/genCube</library>
+  <library>roles/roles</library>
+  
+  
+  
+  <triggers/>
+  <addon>
+    <plugin>crystalspace.renderloop.loop.loader</plugin>
+    <paramsfile>/shader/std_rloop_shadowed.xml</paramsfile>
+  </addon>
+  <sector name='Scene'>
+    <renderloop>std_rloop_shadowed</renderloop>
+    <ambient blue='0.5' green='0.5' red='0.5'/>
+    <cullerp plugin='crystalspace.culling.frustvis'/>
+	
+	
+	<!--<meshobj name="nan">
+		<priority>portal</priority>
+		<plugin>spr3d</plugin>
+		<params>
+		<factory>nan</factory>
+		</params>
+		<zuse />
+		<move>
+		  <v y='0' x='-58.2838' z='-85.4848'/>
+		</move>
+	</meshobj>
+	
+	<meshobj name="nv">
+		<priority>portal</priority>
+		<plugin>spr3d</plugin>
+		<params>
+		<factory>nv</factory>
+		</params>
+		<zuse />
+		<move>
+		  <v y='0' x='-59.2838' z='-85.4848'/>
+		</move>
+	</meshobj>
+	
+	<meshobj name="xi_femaleChild_a">
+		<priority>portal</priority>
+		<plugin>spr3d</plugin>
+		<params>
+		<factory>xi_femaleChild_a</factory>
+		</params>
+		<zuse />
+		<move>
+		  <v y='0' x='-60.2838' z='-85.4848'/>
+		</move>
+	</meshobj>
+	
+	<meshobj name="xi_femaleOld_a">
+		<priority>portal</priority>
+		<plugin>spr3d</plugin>
+		<params>
+		<factory>xi_femaleOld_a</factory>
+		</params>
+		<zuse />
+		<move>
+		  <v y='0' x='-60.2838' z='-85.4848'/>
+		</move>
+	</meshobj>
+
+	<meshobj name="xi_maleOld_a">
+		<priority>portal</priority>
+		<plugin>spr3d</plugin>
+		<params>
+		<factory>xi_maleOld_a</factory>
+		</params>
+		<zuse />
+		<move>
+		  <v y='0' x='-60.2838' z='-85.4848'/>
+		</move>
+	</meshobj>-->
+	
+	<meshobj name="xi_maleChild_a">
+		<priority>portal</priority>
+		<plugin>spr3d</plugin>
+		<params>
+		<factory>xi_maleChild_a</factory>
+		</params>
+		<zuse />
+		<move>
+		  <v y='0' x='-60.2838' z='-85.4848'/>
+		</move>
+	</meshobj>
+	
+	
+	
+    <meshobj name='alpha_xx_142_ly'>
+      <plugin>genmesh</plugin>
+      <priority>alpha</priority>
+      <params>
+        <factory>genalpha_xx_142_ly</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='4.3483' x='-75.3416' z='-53.9599'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_js_lee_hp_03'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_js_lee_hp_03</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.5359' x='-86.466' z='-51.4373'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_js_lee_hp_04'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_js_lee_hp_04</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.3553' x='-85.2479' z='-50.6142'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_dao_hang'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_dao_hang</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.308' x='-78.6395' z='-50.5491'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_rqfw'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_rqfw</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.7894' x='-84.1992' z='-50.0006'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_chesi_tree_07'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_chesi_tree_07</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-6.7677' x='-68.3144' z='-95.9796'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_chesi_tree_08'>
+      <plugin>genmesh</plugin>
+      <priority>alpha</priority>
+      <params>
+        <factory>genalpha_chesi_tree_08</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='9.9956' x='-63.2914' z='-59.98'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_chesi_tree_09'>
+      <plugin>genmesh</plugin>
+      <priority>alpha</priority>
+      <params>
+        <factory>genalpha_chesi_tree_09</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='7.072' x='-58.406' z='-59.8139'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_hua07'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_hua07</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9746' x='-85.2281' z='-50.0224'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_hua06'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_hua06</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9846' x='-85.2467' z='-50.0405'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_hua05'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_hua05</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.7922' x='-84.977' z='-50.0485'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_hua03'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_hua03</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9764' x='-85.113' z='-50.1412'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_hua02'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_hua02</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9525' x='-85.0787' z='-50.1599'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_hua01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_hua01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9894' x='-85.0456' z='-50.2291'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_hua09'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_hua09</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.0176' x='-85.1374' z='-50.1701'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_hua08'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_hua08</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.051' x='-85.1522' z='-50.1948'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_lazhu_01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_lazhu_01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.1626' x='-85.2562' z='-50.6522'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_ysp_0011'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_ysp_0011</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='8.6257' x='-75.4718' z='-64.499'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_song_shu_03'>
+      <plugin>genmesh</plugin>
+      <priority>alpha</priority>
+      <params>
+        <factory>genalpha_song_shu_03</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='12.6415' x='-81.4698' z='-52.3227'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_chesi_tree_11'>
+      <plugin>genmesh</plugin>
+      <priority>alpha</priority>
+      <params>
+        <factory>genalpha_chesi_tree_11</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='3.753' x='-77.5918' z='-61.3126'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_salpha'>
+      <plugin>genmesh</plugin>
+      <priority>alpha</priority>
+      <params>
+        <factory>genalpha_md_salpha</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='10.076' x='-59.0613' z='-60.0109'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_xx_173_ly'>
+      <plugin>genmesh</plugin>
+      <priority>alpha</priority>
+      <params>
+        <factory>genalpha_xx_173_ly</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='0.0386' x='-69.1969' z='-81.3336'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_xx_174_ly'>
+      <plugin>genmesh</plugin>
+      <priority>alpha</priority>
+      <params>
+        <factory>genalpha_xx_174_ly</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='0.0386' x='-69.0817' z='-80.3078'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_md_baozhuangzhi'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_md_baozhuangzhi</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.8572' x='-85.1312' z='-50.1557'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_js_xianglu_ws_01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_js_xianglu_ws_01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9995' x='-85.1675' z='-50.6162'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_js_lee_hp_02'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_js_lee_hp_02</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.198' x='-85.9415' z='-51.1473'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_md_fdy_pz_001_00'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_md_fdy_pz_001_00</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9588' x='-85.2056' z='-50.5172'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_js_xianglu_ws_02'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_js_xianglu_ws_02</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.0332' x='-85.1675' z='-50.6162'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_ysp_001'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_ysp_001</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='9.2243' x='-62.8913' z='-57.1628'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_js_lee_hp_06'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_js_lee_hp_06</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.2239' x='-85.7421' z='-50.9754'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_md_xp_mantou'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_md_xp_mantou</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9958' x='-85.0633' z='-50.7504'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_ndxq_zcb_xp_01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_ndxq_zcb_xp_01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.5765' x='-85.1313' z='-50.5964'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_lazhu'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_lazhu</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.103' x='-85.2553' z='-50.653'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_js_xiang_ws_002'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_js_xiang_ws_002</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.1084' x='-85.1746' z='-50.6253'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_js_lee_hp_01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_js_lee_hp_01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9423' x='-84.8574' z='-50.4476'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_ps_gb_jza01_051'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_ps_gb_jza01_051</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.6291' x='-58.9606' z='-80.3102'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_md_fdy_xj_001'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_md_fdy_xj_001</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9731' x='-85.3416' z='-50.2911'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_md_csy_jiu01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_md_csy_jiu01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.0529' x='-84.9633' z='-50.8872'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_md_gaojiaobei_01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_md_gaojiaobei_01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.997' x='-84.8934' z='-50.9917'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_md_xp_yuebing'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_md_xp_yuebing</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.9745' x='-85.2365' z='-50.4804'/>
+      </move>
+    </meshobj>
+    <meshobj name='xjp_ndxq_zcb_xp_001_'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genxjp_ndxq_zcb_xp_001_</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.7443' x='-85.1348' z='-50.5958'/>
+      </move>
+    </meshobj>
+    <meshobj name='water'>
+      <plugin>genmesh</plugin>
+      <priority>transp</priority>
+      <params>
+        <factory>genwater</factory>
+        <mixmode>
+          <alpha>0.5</alpha>
+        </mixmode>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.1299' x='-68.3986' z='-80.112'/>
+      </move>
+    </meshobj>
+    <meshobj name='collide'>
+      <plugin>genmesh</plugin>
+      <priority>transp</priority>
+      <params>
+        <factory>gencollide</factory>
+        <mixmode>
+          <alpha>0.5</alpha>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='3.5985' x='-68.7941' z='-68.4184'/>
+      </move>
+    </meshobj>
+    <meshobj name='sky_chm_cc_ww_002'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>gensky_chm_cc_ww_002</factory>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <zuse/>
+      <move>
+        <v y='45.7008' x='89.5215' z='37.1921'/>
+      </move>
+    </meshobj>
+    <meshobj name='sky_sky02'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>gensky_sky02</factory>
+        <color blue='1' green='1' red='1'/>
+      </params>
+      <zuse/>
+      <move>
+        <v y='364.932' x='89.5215' z='37.1921'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_whe_dxa01_0'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_whe_dxa01_0</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.9184' x='-51.0747' z='-63.2803'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ground012'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ground012</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='20.9588' x='-138.5' z='-8.034'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ground013'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ground013</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.002' x='19.2909' z='-82.9018'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ground011'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ground011</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='27.337' x='-83.0684' z='-40.5633'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_gr.008'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_gr.008</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.1147' x='-66.7231' z='-80.6543'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_gr.007'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_gr.007</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.5517' x='-82.2856' z='-54.7916'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_ground'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_ground</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.7231' x='-80.7059' z='-51.9636'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_gr.006'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_gr.006</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.002' x='0.9272' z='-49.4128'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_gr.005'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_gr.005</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.002' x='1.9813' z='-61.4317'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_gr.004'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_gr.004</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.002' x='0.9115' z='-49.4033'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_bwdq_csy_jz_00'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_bwdq_csy_jz_00</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.9205' x='-85.9484' z='-51.1612'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_gr.003'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_gr.003</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-2.3595' x='-67.9368' z='-89.9156'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_gr.002'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_gr.002</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-2.8196' x='-77.8769' z='-76.8646'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_xjdls_09'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_xjdls_09</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.5496' x='-85.8061' z='-51.0138'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_bwdq_csy_jz_01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_bwdq_csy_jz_01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.3849' x='-85.904' z='-51.0739'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_bwdq_csy_jz_02'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_bwdq_csy_jz_02</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.3213' x='-86.3195' z='-51.3257'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ground01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ground01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='12.9896' x='-70.4764' z='-69.8853'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_md_000011'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_md_000011</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-1.8375' x='-70.6915' z='-87.6539'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_zghy_dx__csy_0'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_zghy_dx__csy_0</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.8706' x='-86.6497' z='-51.525'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_md_00001'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_md_00001</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.82' x='-70.3653' z='-87.7185'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_ply_dxa01_0'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_ply_dxa01_0</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.881' x='-75.494' z='-56.1753'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_whe_jza01_0'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_whe_jza01_0</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='3.6492' x='-51.0747' z='-63.2803'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_zghy_dx_019'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_zghy_dx_019</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.3103' x='-85.5614' z='-50.8652'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_jsgm_csy_dx_01'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_jsgm_csy_dx_01</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.7683' x='-89.8356' z='-44.8453'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_jsgm_csy_dx_02'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_jsgm_csy_dx_02</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='11.3968' x='-104.902' z='-53.9178'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_gr.001'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_gr.001</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.8213' x='-62.2835' z='-68.3512'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_groun2'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_groun2</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.5106' x='-67.9368' z='-90.7263'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_groun3'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_groun3</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='3.3404' x='-81.6961' z='-74.9746'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_gb_jza01_00'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_gb_jza01_00</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.4248' x='-88.4791' z='-45.6656'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_groun5'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_groun5</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='19.9026' x='-130.992' z='37.6986'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_groun6'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_groun6</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.002' x='36.0857' z='-37.1759'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_groun7'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_groun7</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='19.5861' x='-21.2101' z='24.291'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_groun8'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_groun8</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.002' x='36.1509' z='-37.14'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_groun9'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_groun9</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.3557' x='-14.4466' z='-22.1201'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_jsgm_csy_dx_00'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_jsgm_csy_dx_00</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.7602' x='-85.0577' z='-50.3666'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_gr'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_gr</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-0.1029' x='-60.8974' z='-95.1878'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_groun1'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_groun1</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-2.0518' x='-57.9149' z='-93.3185'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_dzx_dx_ly_013'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_dzx_dx_ly_013</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.0198' x='-88.2309' z='-47.9162'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_dzx_dx_ly_015'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_dzx_dx_ly_015</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.2768' x='-88.2346' z='-47.9162'/>
+      </move>
+    </meshobj>
+    <meshobj name='ground_ps_spmu_groun4'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genground_ps_spmu_groun4</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.3011' x='-57.8053' z='-93.3698'/>
+      </move>
+    </meshobj>
+    <!--<meshobj name='Cube'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genCube</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.289' x='-58.2838' z='-85.4848'/>
+      </move>
+    </meshobj>-->
+    <light name="sun">
+      <center x="-200" y="260" z="0" />
+      <radius>50000</radius>
+      <color red="0.85903" green="0.80995" blue="0.80420"/>
+      <type>directional</type>
+	  
+    </light>
+  </sector>
+  <sequences/>
+  <start name='Camera'>
+    <sector>Scene</sector>
+    <position y='5.3437' x='7.4811' z='-6.5076'/>
+    <up y='0.8953' x='-0.3307' z='0.2984'/>
+    <forward y='-0.4452' x='-0.6549' z='0.6107'/>
+  </start>
+</world>

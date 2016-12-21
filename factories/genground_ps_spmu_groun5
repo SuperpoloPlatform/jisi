@@ -1,0 +1,13 @@
+<library>
+  <meshfact name='genground_ps_spmu_groun5'>
+    <plugin>genmeshfact</plugin>
+    <zuse/>
+    <params>
+      <material>ps_spmu_groun5</material>
+      <v x="0.004726" y="-0.000027" z="-0.006198" u="0.275822" v="-0.950381" nx="-0.016755" ny="0.999725" nz="-0.014557"/>
+      <v x="0.006879" y="0.000041" z="-0.004061" u="0.275812" v="-0.950567" nx="-0.016755" ny="0.999725" nz="-0.014557"/>
+      <v x="-0.006879" y="-0.000041" z="0.006198" u="0.274784" v="-0.950570" nx="-0.016755" ny="0.999725" nz="-0.014557"/>
+      <t v1="2" v2="1" v3="0"/>
+    </params>
+  </meshfact>
+</library>
